@@ -17,14 +17,13 @@ Amount: The amount of the transaction. (Number)
 **Question answered for analysis**  [** Check the sql file to see the code **]
 
 **1. Write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends**
-     Mumbai , Bangalore and Ahmeedabad are the top 3 cities with highest credit card spends
+     
    ![ans1](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/55eaebdb-25b6-45ee-9c26-d264144a4cfe)
-   
+   Mumbai , Bangalore and Ahmeedabad are the top 3 cities with highest credit card spends
    
 **2. Write a query to print highest spend month and amount spent in that month for each card type**
-     This is done by first identifying the month in which maximum spending happened by grouping the data on month and doing sum of spending putting a limit on the output and then using this output as a filter in other query where we group the data on cards .
    ![ans2](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/49bdd34b-bf64-41c5-8e15-cf77d1b91321)
-
+  This is done by first identifying the month in which maximum spending happened by grouping the data on month and doing sum of spending putting a limit on the output and then using this output as a filter in other query where we group the data on cards .
 **3. Write a query to print the transaction details(all columns from the table) for each card type when
    it reaches a cumulative of 1000000 total spends(We should have 4 rows in the o/p one for each card type)**
    ![ans 3](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/847189c3-876a-4c3c-b421-c4976545d6ad)
