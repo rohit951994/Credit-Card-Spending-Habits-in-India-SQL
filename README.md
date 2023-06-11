@@ -16,7 +16,7 @@ Amount: The amount of the transaction. (Number)
 
 **Question answered for analysis**  [** Check the sql file to see the code **]
 
-**1. write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends **
+**1. write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends**
    ![ans1](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/55eaebdb-25b6-45ee-9c26-d264144a4cfe)
    
    
