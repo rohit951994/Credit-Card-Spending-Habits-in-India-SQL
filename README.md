@@ -18,7 +18,8 @@ Amount: The amount of the transaction. (Number)
 
 **1. write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends **
    ![ans1](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/55eaebdb-25b6-45ee-9c26-d264144a4cfe)
-
+   
+   
 **2. write a query to print highest spend month and amount spent in that month for each card type**
    ![ans2](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/49bdd34b-bf64-41c5-8e15-cf77d1b91321)
 
@@ -40,7 +41,7 @@ Amount: The amount of the transaction. (Number)
 **7. which card and expense type combination saw highest month over month growth in Jan-2014**
    ![ans7](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/4e8c4369-3840-47a1-9550-449bdef3cfb1)
 
-**8. during weekends which city has highest total spend to total no of transcations ratio **
+**8. during weekends which city has highest total spend to total no of transcations ratio**
    ![ans8](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/ff60e474-ab96-4d58-9af0-b0d79e253e1f)
 
 **9. which city took least number of days to reach its 500th transaction after first transaction in that city**
