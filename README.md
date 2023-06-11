@@ -26,12 +26,13 @@ Amount: The amount of the transaction. (Number)
    ![ans2](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/49bdd34b-bf64-41c5-8e15-cf77d1b91321)
   
   This is done by first identifying the month in which maximum spending happened by grouping the data on month and doing sum of spending putting a limit on the output and then using this output as a filter in other query where we group the data on cards .
-**3. Write a query to print the transaction details(all columns from the table) for each card type when
-   it reaches a cumulative of 1000000 total spends(We should have 4 rows in the o/p one for each card type)**
+  
+**3. Write a query to print the transaction details(all columns from the table) for each card type when it reaches a cumulative of 1000000 total spends(We should have 4 rows in the o/p one for each card type)**
    ![ans 3](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/847189c3-876a-4c3c-b421-c4976545d6ad)
+ 
+ Firstly we start the problem by creating a CTE cumulative_txn_sum where we find the cumulative sum of all the transaction partitioned on card_type and ordered by date_of_transaction .Then we create another CTE conditional_flag where we flag the enteries where the cumulative sun reaches 1000000 using case statement and lag windows function and then we just filter out the flagged data .
 
 **4. Write a query to find city which had lowest percentage spend for gold card type**
-  
   ![ans4](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/1692c5ab-a56a-4f2e-90d2-52da67b4a762)
 
 **5. Write a query to print 3 columns: city, highest_expense_type , lowest_expense_type (example format : Delhi , bills, Fuel)**
