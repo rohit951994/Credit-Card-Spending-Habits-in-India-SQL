@@ -39,8 +39,13 @@ Amount: The amount of the transaction. (Number)
    ![ans5](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/d2adc2e3-4783-4feb-851c-1bfc9e914ef8)
    
    [10 samples shown] 
+   
+   First we create a CTE to find the total spending grouped on city and expense_type . After that we pivot the data by using case statement and first_value and last_value functions to to arrange the data into different category .
+   
 **6. Write a query to find percentage contribution of spends by females for each expense type**
    ![ans6](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/77d2328e-7e25-4571-bdeb-61f3ca1e9278)
+   
+   In this problem we cteate two CTEs . total_expense , where total_Expense is found based on txpense_Type and Total_expense_by_female . Then the data from two CTEs are joined to find the percentage contribution by Female .
 
 **7. Which card and expense type combination saw highest month over month growth in Jan-2014**
    ![ans7](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/4e8c4369-3840-47a1-9550-449bdef3cfb1)
