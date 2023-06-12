@@ -50,9 +50,13 @@ Amount: The amount of the transaction. (Number)
 **7. Which card and expense type combination saw highest month over month growth in Jan-2014**
    ![ans7](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/4e8c4369-3840-47a1-9550-449bdef3cfb1)
 
+
+
 **8. During weekends which city has highest total spend to total no of transcations ratio**
    ![ans8](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/ff60e474-ab96-4d58-9af0-b0d79e253e1f)
 
 **9. Which city took least number of days to reach its 500th transaction after first transaction in that city**
    
    ![ans9](https://github.com/rohit951994/Credit-Card-Spending-Habits-in-India-SQL/assets/72706872/ad24d3ef-e573-4340-bb9d-d6c034b718cc)
+   
+   First create a CTE and order the data based on date of transactions , provide a row number to the ordered table . Then find the no of days  between the 500th and 1st transaction of each city and limit the result to the city which reaced 500 transaction in least days .
